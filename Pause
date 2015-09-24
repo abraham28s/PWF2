@@ -1,0 +1,20 @@
+#pragma strict
+
+function OnMouseDown()
+{
+
+if (movimiento.pasue == false)
+{
+movimiento.pause = true;
+Time.timeScale= 1;
+
+return;
+}
+if (movimiento.pause==true)
+{
+movimiento.pause=false;
+Time.timeScale=1;
+return;
+}
+
+}
